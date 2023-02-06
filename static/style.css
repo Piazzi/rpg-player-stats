@@ -1,0 +1,156 @@
+
+/* Cardo for headers. */
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+/* Open Sans for tables and box text. */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Rochester for drop caps. */
+@import url('https://fonts.googleapis.com/css?family=Rochester');
+
+body {
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+}
+
+header {
+    background-color:
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+li, label, input, option, select {
+  line-height: 1.7em;
+  color: #58180D !important;
+  font-variant-caps: small-caps;
+  font-family: 'Cardo', serif;
+  margin-bottom: 0.1em;
+  page-break-after: avoid;
+  font-size: large;
+
+}
+
+.form {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-color: #58180D;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  table tr,
+  table th,
+  table td {
+    border: 0;
+    padding: 0.2ex;
+    text-align: left;
+    font-size: 11pt;
+  }
+  table th {
+    vertical-align: bottom;
+  }
+  table td {
+    vertical-align: top;
+  }
+  tr:nth-child(even) {
+    background: #f0dbb5;
+  }
+  th:nth-child(1),
+  td:nth-child(1) {
+    text-align: center;
+  }
+  
+  blockquote {
+    margin: 1em 0;
+    width: 100%;
+    font-style: italic;
+  }
+  blockquote[cite]:after,
+  blockquote cite:before {
+    content: "— " attr(cite);
+  }
+  blockquote[cite]:after,
+  blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+  }
+  
+  /* List with dots aligned to the rest of the text. */
+  ul {
+    margin: 0.5em 0;
+    padding-left: 1.2em;
+  }
+  
+  /* Drop Caps, ie. that fancy big first letter of chapters. */
+  .dropcap:first-letter {
+    /*initial-letter: 2;*/
+    font-size: 2em;
+    line-height: 1em;
+    padding-right: 0.2em;
+    font-family: 'Rochester', cursive;
+  }
+  
+  /* Alternative manual colour and aligning. */
+  h3.blue-head {
+    text-align: right;
+    color: #668fad;
+    border-bottom: 2px solid #668fad;
+    line-height: 100%;
+  }
+  
+  label.table-header {
+    font-size: 105%;
+    font-weight: bold;
+    margin-top: 0.5em;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .opening-flavour {
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+    font-style: italic;
+  }
+  
+  .readaloud,
+  .sidenote {
+    padding: 1.5ex;
+    margin: 0.8em 0 0.8em 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 170%;
+    font-size: 11pt;
+  }
+  .readaloud {
+    background: #e4d0bf;
+    border: solid #9C2B1B;
+    border-width: 0 2px;
+  }
+  .sidenote {
+    background: #e8dfd6;
+    border: solid #000;
+    border-width: 2px 0;
+  }
+  
+  .sidenote h1,
+  .sidenote h2,
+  .sidenote h3,
+  .sidenote h4,
+  .sidenote h5,
+  .sidenote h6 {
+    margin-top: 0;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+  }
